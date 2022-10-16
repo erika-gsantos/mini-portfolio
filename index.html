@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./src/css/reset.css">
+<link rel="stylesheet" href="./src/css/estilos.css">
+<link rel="stylesheet" href="/src/css/rolagem.css">
+
+
+    <title>Mini Portifólio</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+          <img src="./src/imagens/fotoperfil.jpg" alt="foto de perfil">
+          <h1 class="nome">Érika Gonçalves Santos</h1>
+          <h2 class="cargo">Desenvolvedora Frontend Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="icone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="icone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+                    <div class="descricao">
+                        <p>Olá! Meu nome é Érika, seja bem-vindo(a)!</p>
+                        <p>Sou uma pessoa apaixonada pela área da tecnologia e tive interesse na área da programação depois de ter contato com amigos da área. Sempre tive interesse, mas o sonho de levar isso para a vida profissional veio recentemente e, atualmente, estudo <span>HTML, CSS, JavaScript e React.</span>Gosto muito da cultura geek e meus principais hobbies são ler livros biográficos e ballet (e a dança no geral).</p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas Redes</h3>
+                    <ul class="redes-sociais">
+                        <li>
+                        <a href="https://twitter.com/bellamyien" target="_blank" class="twitter">Twitter</a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/%C3%A9rika-gon%C3%A7alves-santos-49376b24b" target="_blanck" class="linkedin">LinkedIn</a></li>
+                        <li>
+                            <a href="https://github.com/erika-gsantos" target="_blank" class="github">Github</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
